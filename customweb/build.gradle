@@ -38,18 +38,20 @@ android {
 
 dependencies {
     implementation libs.androidx.core.ktx
-    implementation libs.material
-    implementation libs.constraintlayout
     implementation libs.androidx.appcompat
+    implementation libs.material
+    implementation libs.activity
+    implementation libs.constraintlayout
+    testImplementation libs.junit
+    androidTestImplementation libs.androidx.junit
+    androidTestImplementation libs.androidx.espresso.core
     implementation libs.preference
     implementation libs.gif.drawable
     api libs.retrofit
     api libs.retrofitGson
     api libs.retrofitConverter
     compileOnly fileTree(dir: 'libs', include: ['*.jar'])
-    implementation libs.androidx.monitor
-    implementation libs.androidx.junit.ktx
-    testImplementation libs.testng
+
 //    implementation project(path: 'ced.cedie.cedrick.jujump', configuration:'default')
 //    implementation 'androidx.core:core-ktx:1.7.0'
 //    implementation 'com.google.android.material:material:1.5.0'

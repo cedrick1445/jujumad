@@ -83,3 +83,7 @@ l
 <customweb/src/test/java/ced/cedie/cedrick/ExampleUnitTest.kt,4\a\4a05c5aff3fb78e17152145f4d2a6f3dc0faad26
 X
 (gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+€
+Papp/src/androidTest/java/ced/cedie/cedrick/talontothe/ExampleInstrumentedTest.kt,e\2\e2ed243f3df99713b0655adf45de80733649c7cb
+q
+Aapp/src/test/java/ced/cedie/cedrick/talontothe/ExampleUnitTest.kt,2\3\239aaa56a3f7631bef308ae6b3724017980bc762
