@@ -1,0 +1,68 @@
+plugins {
+    alias(libs.plugins.androidLibrary)
+    alias(libs.plugins.jetbrainsKotlinAndroid)
+}
+
+android {
+    namespace 'ced.cedie.cedrick.jujump'
+    compileSdk 34
+
+    defaultConfig {
+        minSdk 26
+        targetSdk 34
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        android.buildFeatures.viewBinding = true
+        //noinspection DataBindingWithoutKapt
+        buildFeatures.dataBinding = true
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation libs.androidx.core.ktx
+    implementation libs.material
+    implementation libs.constraintlayout
+    implementation libs.androidx.appcompat
+    implementation libs.preference
+    implementation libs.gif.drawable
+    api libs.retrofit
+    api libs.retrofitGson
+    api libs.retrofitConverter
+    compileOnly fileTree(dir: 'libs', include: ['*.jar'])
+    implementation libs.androidx.monitor
+    implementation libs.androidx.junit.ktx
+    testImplementation libs.testng
+//    implementation project(path: 'ced.cedie.cedrick.jujump', configuration:'default')
+//    implementation 'androidx.core:core-ktx:1.7.0'
+//    implementation 'com.google.android.material:material:1.5.0'
+//    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+//
+//    implementation fileTree(dir: 'libs', include: ['*.jar'])
+//    implementation 'androidx.appcompat:appcompat:1.4.1'
+//    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.23'
+//    implementation 'androidx.preference:preference-ktx:1.2.0'
+//
+//    def retrofitVersion = "2.9.0"
+//    implementation "com.squareup.retrofit2:retrofit:${retrofitVersion}"
+//    implementation "com.squareup.retrofit2:converter-gson:${retrofitVersion}"
+//    implementation "com.squareup.retrofit2:converter-simplexml:${retrofitVersion}"
+
+}

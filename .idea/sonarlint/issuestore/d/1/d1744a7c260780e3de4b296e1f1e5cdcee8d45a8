@@ -1,0 +1,20 @@
+
+pkotlin:S6508ú"*Replace this usage of Void type with Unit.(Ğ±ÚÌ8Îø§Ëò1J$961690ef-fd6e-49bb-aa56-bd91468110d6
+dkotlin:S125Ï"Remove this commented out code.(–®Ú¦8Õø§Ëò1J$e91f67fa-6829-4c5b-bfa5-f81d14162eda
+nkotlin:S108Š")Either remove or fill this block of code.(±«¹8ãø§Ëò1J$2d91909b-bc3c-46d3-a8b1-7f766137f607
+nkotlin:S108‹")Either remove or fill this block of code.(‹œ®ˆ8ãø§Ëò1J$83abc51e-ef2f-48f7-9c2f-b23f4a4afdb9
+nkotlin:S108Œ")Either remove or fill this block of code.(¿ûã¥8ãø§Ëò1J$b21896d4-b9e8-4adf-848f-0a85a2b2cf42
+skotlin:S108")Either remove or fill this block of code.(œõŒùÿÿÿÿ8ãø§Ëò1J$8dbba44e-6ad9-47bc-ab63-804867aff4d1
+skotlin:S108’")Either remove or fill this block of code.(€¸¦’üÿÿÿÿ8äø§Ëò1J$04e91362-2ee3-453c-95ba-8088a9319c52
+ukotlin:S1481a"0Remove this unused "appCacheDir" local variable.(ÆÕ½Æ8ìø§Ëò1J$8ba190e3-e87a-475e-a75b-ce30d1c60350
+ikotlin:S1874ú"#Deprecated code should not be used.(Ğ±ÚÌ8ôø§Ëò1J$2d8bd448-fc78-4a15-93aa-b4108b915fc7
+ikotlin:S1874ú"#Deprecated code should not be used.(Ğ±ÚÌ8¾ŠËò1J$a59ffc7b-5123-40bb-8a37-d9d08862a85c
+hkotlin:S18745"#Deprecated code should not be used.(¾™î°8õø§Ëò1J$1e5668c0-f900-410b-9aa0-9806ddf0ac70
+mkotlin:S1874P"#Deprecated code should not be used.(ùÈÁÊøÿÿÿÿ8õ­ªÌò1J$72129b09-8a63-4efd-bedd-4676ef7c1593
+nkotlin:S1874Å"#Deprecated code should not be used.(±‰Öûûÿÿÿÿ8õø§Ëò1J$8b65f4cc-fa91-4d23-b011-e368a33f20cf
+ikotlin:S1874ò"#Deprecated code should not be used.(¾™î°8õø§Ëò1J$dd4db83e-e732-4604-8f5a-5e701907e1f3
+mkotlin:S1874"#Deprecated code should not be used.(øÚˆŸùÿÿÿÿ8õø§Ëò1J$2ffed65e-7eb4-40f6-8601-7f59c4e47d70
+mkotlin:S1874S"#Deprecated code should not be used.(Ä¬¤ïùÿÿÿÿ8ö­ªÌò1J$a571a94a-e54f-449e-a603-74fb33a00a9e
+ikotlin:S1874ú"#Deprecated code should not be used.(Ğ±ÚÌ8õø§Ëò1J$75e6cf39-954f-4a09-a614-920c051726d3
+œkotlin:S3776H"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(†ş Ôüÿÿÿÿ8ğëÕíò1J$c17973e2-4062-4202-968f-5733ab49197c
+tkotlin:S1066ß".Merge this "if" statement with the nested one.(±¬İè8ûø§Ëò1J$ea224cfd-6ecb-477c-b90a-ef1acf809ba3
